@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [repository link](https://github.com/ane1897-dev/blog-card-design-using-html-and-css)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL ](https://blog-card-design-using-css-and-html.netlify.app/)
 
 ## My process
 
@@ -49,37 +49,28 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+What i found interesting is without using media queries we can adjust the font-sizes of the text across different screens ranging from mobile to desktop. Because i done this project in mobile-first design, the fonts were higher then when expanding the screen size, they become smaller.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+p1{
+    font-size: clamp(1.05rem, 1.15rem - 0.5vw, 1.0rem);
+    font-weight: 500;
+    opacity:0.5;
+    text-align: left;
+    line-height: 1.5;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Even though i used the css clamp, i want to understand more like the 3 parameters it accepts and more on how to hover in links and also box-shadow which accepts 4 number values with additional color.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ane1897-dev](https://www.frontendmentor.io/profile/ane1897-dev)
 
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
+Frontend Mentor has vast challenges for beginners and step by step help developers to reach their higher level by making the site Available of cost and giving feedback on the worked challenges(solutions). These makes it similar to how real world jobs are conducted, giving us an early insight, which is very helpful. 
